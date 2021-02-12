@@ -64,6 +64,8 @@ function helm_install_subm() {
         --set submariner.images.repository="localhost:5000" \
         --set submariner.images.tag="local" \
         --set brokercrds.create="${crd_create}" \
+        --set submariner.serviceDiscovery="true" \
+        --set serviceAccounts.lighthouse.create="true" \
         ${deploytool_submariner_args}
 }
 
