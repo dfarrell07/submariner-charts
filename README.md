@@ -29,7 +29,7 @@ Locally-modified charts can be installed using `helm install`,
 referring to the local path; for example:
 
 ```bash
-helm install submariner-k8s-broker ./submariner-k8s-broker ...
+helm install submariner-operator ./submariner-operator...
 ```
 
 In the base directory of this repository, a local deployment using the
